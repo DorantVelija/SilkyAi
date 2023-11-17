@@ -36,6 +36,7 @@ body{
     padding: 15px 10px;
     transition: 300ms;
 }
+
 .section1{
     margin: 0;
     background-image: url("../Landing/bg/bgS1.png");
@@ -141,6 +142,68 @@ body{
     justify-content: center;
  }
 
+ .container1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+ }
+ .container2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+ .container3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+ }
+ .features{
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    width: 30%;
+    height: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background: rgb(91,0,93);
+    background: linear-gradient(180deg, rgba(91,0,93,1) 0%, rgba(3,3,3,0) 90%);
+ }
+#icon{
+    height: 160px;
+    margin-top: 0px;
+    margin-left: 25%;
+ }
+.cardTitle{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+ }
+ .cardText{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    height: 300px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.section3{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .footer{
     height: 300px;
